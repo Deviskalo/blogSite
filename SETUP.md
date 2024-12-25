@@ -89,15 +89,17 @@ pnpm install
 
 ### 6. Prisma Setup
 
-bash
-
 # Generate Prisma Client
 
+```bash
 npx prisma generate
+```
 
 # Push schema to database
 
+```bash
 npx prisma db push
+```
 
 ### 7. Run Development Server
 
